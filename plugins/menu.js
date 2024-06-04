@@ -138,7 +138,7 @@ contextInfo: {
 externalAdReply: {
 title: 'eren BOT 🎀',
 body: "بوت ايرين/عرعونه لحياة افضل",
-thumbnailUrl: 'https://telegra.ph/file/3864bc8928b0579deb8db.jpg',
+thumbnailUrl: 'https://telegra.ph/file/904efdd324567478a0ee0.mp4',
 sourceUrl: '',
 mediaType: 1,
 renderLargerThumbnail: true
