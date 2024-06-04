@@ -10,7 +10,7 @@ let tags = {
   'ai':'‎ الذكاء الاصطناعي‎ أوامر',
   'infobot':'‎ معلومات البوت‎',
   'downloader':'‎ أوامر التحميلات',
-  'anime':'‎ أوامر عن  الأنيم',
+  'anime':'‎ أوامر عن  الأنمي',
   'islam':'‎ الدين هو الاسلام‎',
   'owner':'‎ اوامر صاحب البوت',
   'search':'‎ أوامر البحث',
@@ -136,9 +136,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: 'eren BOT 🎀',
+title: ' *eren BOT* 🎀',
 body: "بوت ايرين/عرعونه لحياة افضل",
-thumbnailUrl: 'https://telegra.ph/file/904efdd324567478a0ee0.mp4',
+thumbnailUrl: 'https://telegra.ph/file/1a00875e4492f8ade9347.jpg',
 sourceUrl: '',
 mediaType: 1,
 renderLargerThumbnail: true
