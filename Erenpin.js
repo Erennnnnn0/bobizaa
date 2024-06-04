@@ -19,17 +19,17 @@ def download_pinterest_video(url):
     else:
         return None
 
-def send_video_whatsapp(phone_number, video_path, message):
-    kit.sendwhats_image(phone_number, video_path, caption=message)
+def send_video_whatsapp(212690349201, video_path, message):
+    kit.sendwhats_image(212690349201, video_path, caption=message)
 
 # مثال على الاستخدام:
-pinterest_video_url = "رابط الفيديو من بينتريست هنا"
-phone_number = "رقم الهاتف بصيغة دولية مع رمز الدولة"
+pinterestvid = "رابط الفيديو من بينتريست هنا"
+phone_number = "+212690349201"
 message = "شاهد هذا الفيديو من بينتريست!"
 
 video_path = download_pinterest_video(pinterest_video_url)
 
 if video_path:
-    send_video_whatsapp(phone_number, video_path, message)
+    send_video_whatsapp(212690349201, video_path, message)
 else:
     print("لم أتمكن من تحميل الفيديو من بينتريست.")
