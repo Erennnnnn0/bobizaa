@@ -33,7 +33,7 @@ const defaultMenu = {
   header: '┏━━⊜ *_%category_* ',
   body: '┃⋄ %cmd %isdiamond %isPremium',
   footer: '┗━━━━━━━━⬣\n',
-  after: '* ittirachia eren💔 *',
+  after: '*ittirachia eren💔*',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
