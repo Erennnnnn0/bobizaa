@@ -28,12 +28,12 @@ const defaultMenu = {
 ⏰ *Uptime:* %muptime  
 ┗━━━━━━━━━━⬣
 %readmore
-  ≡ *B O B I Z A | M E N U*
+  ≡ *E R E N | M E N U*
 `.trimStart(),
   header: '┏━━⊜ *_%category_* ',
   body: '┃⋄ %cmd %isdiamond %isPremium',
   footer: '┗━━━━━━━━⬣\n',
-  after: '*ittirachia eren💔*',
+  after: '* *ittirachia eren💔* *',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
