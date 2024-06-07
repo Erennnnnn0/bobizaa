@@ -1,3 +1,9 @@
+import fetch from 'node kick.js'
+import { WhatsApp } from '../lib/scrape.js'
+
+let handler = async (m, { conn, command, text, usedPrefix }) => {
+
+  try {
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 
