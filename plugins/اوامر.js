@@ -101,11 +101,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       before,
       ...Object.keys(tags).map(tag => {
         return header.replace(/%category/g, tags[tag]) + '\n' + [
-          ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
-            return menu.help.map(help => {
-              return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
-                .replace(/%isdiamond/g, menu.diamond ? '(Ⓛ)' : '')
-                .replace(/%isPremium/g, menu.premium ? '(Ⓟ)' : '')
+          ...help.filter(اوامر => اوامر.tags && اوامر.tags.includes(tag) && اوامر.help).map(اوامر => {
+            return اوامر.help.map(help => {
+              return body.replace(/%cmd/g, اوامر.prefix ? help : '%p' + help)
+                .replace(/%isdiamond/g, اوامر.diamond ? '(Ⓛ)' : '')
+                .replace(/%isPremium/g, اوامر.premium ? '(Ⓟ)' : '')
                 .trim()
             }).join('\n')
           }),
@@ -114,7 +114,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       }),
       after
     ].join('\n')
-    let text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ? _text : ''
+    let text = typeof conn.اوامر == 'string' ? conn.اوامر : typeof conn.اوامر == 'object' ? _text : ''
     let replace = {
       '%': '%',
       p: _p, uptime, muptime,
