@@ -20,7 +20,7 @@ let tags = {
   'pdf':'‎ pdf ومشتقاته‎',
   'uploader':'‎‎ رفع الملفات‎',
 }
-const defaultMenu = {
+const defaultاوامر = {
   before: `السلام عليكم 👋. 
 
 ┏━━ salam  *%name*
