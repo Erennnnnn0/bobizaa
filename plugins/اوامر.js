@@ -158,7 +158,7 @@ renderLargerThumbnail: true
 }
 handler.help = ['اوامر']
 handler.tags = ['infobot']
-handler.command = ['اوامر','b','list'] 
+handler.command = ['اوامر','b','list','اوامر'] 
 handler.register = false
 
 
